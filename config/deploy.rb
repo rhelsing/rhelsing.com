@@ -1,4 +1,4 @@
-server 'server', port: 7171, roles: [:web, :app, :db], primary: true
+server '45.55.227.209', port: 2623, roles: [:web, :app], primary: true
 
 set :repo_url,        'git@github.com:rhelsing/rhelsing.com.git'
 set :application,     'rhelsing.com'
